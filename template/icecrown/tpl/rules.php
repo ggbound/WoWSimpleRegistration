@@ -11,11 +11,10 @@
     <?php elang('read_before_register'); ?>
 </p>
 <ul>
-    <li><?php elang('rule'); ?> 1.</li>
-    <li><?php elang('rule'); ?> 2.</li>
-    <li><?php elang('rule'); ?> 3.</li>
-    <li><?php elang('rule'); ?> 4.</li>
-    <li><?php elang('rule'); ?> 5.</li>
-    <li><?php elang('rule'); ?> 6.</li>
-    <li><?php elang('edit_on'); ?> <b>"/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/tpl/rules.php"</b>.</li>
+    <li><?php elang('rule'); ?> 1.请使用正确的邮箱账户进行注册</li>
+    <li><?php elang('rule'); ?> 2.密码没有任何校验，请自行设置的复杂一点</li>
+    <li><?php elang('rule'); ?> 3.请慎重的记住自己的密码，本站不提供找回功能</li>
+    <li><?php elang('rule'); ?> 4.原汁原味公益服！！！</li>
+    <li><?php elang('rule'); ?> 5.原汁原味公益服！！！</li>
+    <li><?php elang('rule'); ?> 6.原汁原味公益服！！！</li>
 </ul>

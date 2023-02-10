@@ -68,7 +68,6 @@
                         if (!get_config('disable_top_players')) { ?>
                             <li><a onclick="$('#topplayers').trigger('click')"><?php elang('top_players'); ?></a></li>
                         <?php } ?>
-                        <li><a onclick="$('#contact').trigger('click')"><?php elang('contact'); ?></a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div>

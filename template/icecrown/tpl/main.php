@@ -50,20 +50,8 @@ require_once 'header.php'; ?>
                         <?php elang('welcome_message'); ?>
                         <hr style="border-color: #00CCFF;">
                         <p style="text-align: justify">
-                            This is a sample text, This is a sample text, This is a sample text, This is a sample
-                            text, This is a sample text, This is a sample text, This is a sample text, This is a
-                            sample text, This is a sample text, This is a sample text, This is a sample text, This
-                            is a sample text, This is a sample text, This is a sample text, This is a sample text,
-                            This is a sample text, This is a sample text, This is a sample text, This is a sample
-                            text, This is a sample text, This is a sample text, This is a sample text, This is a
-                            sample text, This is a sample text, This is a sample text, This is a sample text, This
-                            is a sample text, This is a sample text, This is a sample text, This is a sample text,
-                            This is a sample text, This is a sample text, This is a sample text, This is a sample
-                            text, This is a sample text, This is a sample text, This is a sample text, This is a
-                            sample text, This is a sample text.
+                            本服务器宗旨为服务原先在湖畔镇的好友们一起玩耍的小服务器，麻烦大家不要瞎传播，仅限好友内传播使用，且行且珍惜！！！！且行且珍惜！！！！且行且珍惜！！！！
                         </p>
-                        <p><?php elang('edit_on'); ?> template/<?php echo $antiXss->xss_clean(get_config("template")); ?>
-                            /tpl/main.php</p>
                     </div>
                     <div class="tab-pane fade in <?php echo(!(empty($error_error) && empty($success_msg)) ? 'active' : ''); ?>"
                          id="pills-register">
@@ -106,7 +94,6 @@ require_once 'header.php'; ?>
                             <div class="col-md-6">
                                 <div class="content_box1">
                                     <?php require_once base_path . 'template/' . $antiXss->xss_clean(get_config("template")) . '/tpl/rules.php'; ?>
-                                    <hr>
                                     <div class="text-center">
                                         <?php if (empty(get_config('disable_changepassword'))) { ?>
                                             <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -114,10 +101,6 @@ require_once 'header.php'; ?>
                                                 <?php elang('change_password'); ?>
                                             </button>
                                         <?php } ?>
-                                        <button type="button" class="btn btn-info" data-toggle="modal"
-                                                data-target="#restorepassword-modal">
-                                            <?php elang('restore_password'); ?>
-                                        </button>
                                     </div>
                                     <?php if (get_config('2fa_support')) { ?>
                                         <div class="text-center" data-aos="fade-up" data-aos-delay="100" style="margin-top: 5px;">
