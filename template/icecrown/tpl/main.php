@@ -50,7 +50,7 @@ require_once 'header.php'; ?>
                         <?php elang('welcome_message'); ?>
                         <hr style="border-color: #00CCFF;">
                         <p style="text-align: justify">
-                            本服务器宗旨为服务原先在湖畔镇的好友们一起玩耍的小服务器，麻烦大家不要瞎传播，仅限好友内传播使用，且行且珍惜！！！！且行且珍惜！！！！且行且珍惜！！！！
+                            本服务器宗旨为服务原先在湖畔镇的好友们一起玩耍的小服务器，服务器容纳的人数目前暂定为1000人，有兴趣的可以加入来玩！！！！
                         </p>
                     </div>
                     <div class="tab-pane fade in <?php echo(!(empty($error_error) && empty($success_msg)) ? 'active' : ''); ?>"
